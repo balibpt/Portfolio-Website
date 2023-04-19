@@ -38,7 +38,7 @@ export default function Banner() {
                   repeat={Infinity}
                 />
               </div>
-              <p className="mt-4 text-lg text-gray-400">
+              <p className="mt-4 text-xl text-grey">
                 I am an aspiring fullstack developer. I am passionate about
                 creating efficient and user-friendly web applications that can
                 help solve real-world problems. In my free time, I enjoy playing
