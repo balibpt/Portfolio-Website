@@ -29,7 +29,9 @@
 }
 
 body {
+  position: relative;
   background-color: #1d1f25;
+  margin: 0;
 }
 
 @keyframes App-logo-spin {
