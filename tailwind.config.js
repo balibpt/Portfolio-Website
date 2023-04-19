@@ -6,6 +6,10 @@ module.exports = {
     "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    colors: {
+      primary: "#1d1f25",
+      grey: "#969696",
+    },
     extend: {
       keyframes: {
         updown: {
