@@ -7,7 +7,7 @@ export default function Banner() {
   return (
     <React.Fragment>
       <div
-        className="min-h-screen w-screen"
+        className="min-h-screen max-h-1200 w-screen"
         style={{
           backgroundImage: `url(${bannerBg})`,
           backgroundSize: "cover",
@@ -19,7 +19,7 @@ export default function Banner() {
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="text-white">
               <h1 className="inline-block rounded-lg py-2 text-2xl mr-12 px-3 font-bold mb-4 border border-white bg-gradient-to-r from-pink-900 via-transparent to-purple-500 bg-opacity-50">
-                Welcome to my portfolio!
+                Welcome to my Website!
               </h1>
               <div>
                 <TypeAnimation
@@ -36,7 +36,7 @@ export default function Banner() {
                     fontWeight: "bold",
                     lineHeight: "1em",
                   }}
-                  repeat={Infinity}
+                  repeat={3}
                 />
               </div>
               <p className="mt-4 text-xl text-grey">
