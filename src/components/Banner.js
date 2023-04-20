@@ -13,6 +13,7 @@ export default function Banner() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
+        id="banner"
       >
         <div className="pt-64 px-6">
           <div className="grid grid-cols-1 md:grid-cols-2">

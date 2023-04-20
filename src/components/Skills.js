@@ -24,7 +24,10 @@ export default function Skills() {
   };
   return (
     <React.Fragment>
-      <div className="flex justify-center pb-10 bg-gradient-to-r from-gray-900 via-purple-900 to-gray-900">
+      <div
+        id="skills"
+        className="flex justify-center pb-10 bg-gradient-to-r from-gray-900 via-purple-900 to-gray-900"
+      >
         <div className="max-w-2xs mt-10 sm:mt-10 md:-mt-10  py-5 px-10 rounded-xl bg-primary w-4/5">
           <h1 className="text-4xl text-white font-bold mb-4 text-center">
             Skills

@@ -51,7 +51,10 @@ export default function Contact() {
   };
   return (
     <React.Fragment>
-      <div className="grid grid-cols-1 md:grid-cols-2 py-20 px-10 bg-gradient-to-r from-gray-900 via-purple-900 to bg-gray-900">
+      <div
+        id="contact"
+        className="grid grid-cols-1 md:grid-cols-2 py-20 px-10 bg-gradient-to-r from-gray-900 via-purple-900 to bg-gray-900"
+      >
         <div>
           <h1 className="text-white text-4xl font-bold text-center mb-4">
             Get In Touch

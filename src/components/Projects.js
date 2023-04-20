@@ -5,7 +5,7 @@ import porjectImg1 from "../assets/project-img1.png";
 export default function Projects() {
   return (
     <React.Fragment>
-      <div className="py-4 px-6 mb-10">
+      <div id="projects" className="py-4 px-6 mb-10">
         <h1 className="text-white font-bold text-4xl text-center mb-4">
           Projects
         </h1>
