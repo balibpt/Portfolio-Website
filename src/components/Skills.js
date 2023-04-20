@@ -24,8 +24,8 @@ export default function Skills() {
   };
   return (
     <React.Fragment>
-      <div className="flex justify-center">
-        <div className="md:-mt-20 py-5 px-10 rounded-xl bg-primary w-4/5">
+      <div className="flex justify-center pb-10 bg-gradient-to-r from-gray-900 via-purple-900 to-gray-900">
+        <div className="max-w-2xs mt-10 sm:mt-10 md:-mt-10  py-5 px-10 rounded-xl bg-primary w-4/5">
           <h1 className="text-4xl text-white font-bold mb-4 text-center">
             Skills
           </h1>
@@ -35,7 +35,7 @@ export default function Skills() {
           </p>
           <Carousel responsive={responsive} infinite={true}>
             <div>
-              <div class="max-w-sm rounded-lg shadow">
+              <div class="max-w-sm rounded-lg">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"
                   alt=""
@@ -49,7 +49,7 @@ export default function Skills() {
               </div>
             </div>
             <div>
-              <div class="max-w-sm rounded-lg shadow">
+              <div class="max-w-sm rounded-lg">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain.svg"
                   alt=""
@@ -63,7 +63,7 @@ export default function Skills() {
               </div>
             </div>
             <div>
-              <div class="max-w-sm rounded-lg shadow">
+              <div class="max-w-sm rounded-lg">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                   alt=""
@@ -77,7 +77,7 @@ export default function Skills() {
               </div>
             </div>
             <div>
-              <div class="max-w-sm rounded-lg shadow">
+              <div class="max-w-sm rounded-lg">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
                   alt=""
@@ -91,7 +91,7 @@ export default function Skills() {
               </div>
             </div>
             <div>
-              <div class="max-w-sm rounded-lg shadow">
+              <div class="max-w-sm rounded-lg">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
                   alt=""
@@ -105,7 +105,7 @@ export default function Skills() {
               </div>
             </div>
             <div>
-              <div class="max-w-sm rounded-lg shadow">
+              <div class="max-w-sm rounded-lg">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
                   alt=""
@@ -119,7 +119,7 @@ export default function Skills() {
               </div>
             </div>
             <div>
-              <div class="max-w-sm rounded-lg shadow">
+              <div class="max-w-sm rounded-lg">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
                   alt=""
@@ -133,7 +133,7 @@ export default function Skills() {
               </div>
             </div>
             <div>
-              <div class="max-w-sm rounded-lg shadow">
+              <div class="max-w-sm rounded-lg">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
                   alt=""
@@ -147,7 +147,7 @@ export default function Skills() {
               </div>
             </div>
             <div>
-              <div class="max-w-sm rounded-lg shadow">
+              <div class="max-w-sm rounded-lg">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
                   alt=""
@@ -161,7 +161,7 @@ export default function Skills() {
               </div>
             </div>
             <div>
-              <div class="max-w-sm rounded-lg shadow">
+              <div class="max-w-sm rounded-lg">
                 <svg viewBox="0 0 128 128" className="w-32 h-32 mx-auto">
                   <g fill="#0377c9">
                     <path
@@ -180,7 +180,7 @@ export default function Skills() {
               </div>
             </div>
             <div>
-              <div class="max-w-sm rounded-lg shadow">
+              <div class="max-w-sm rounded-lg">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
                   alt=""
@@ -194,7 +194,7 @@ export default function Skills() {
               </div>
             </div>
             <div>
-              <div class="max-w-sm rounded-lg shadow">
+              <div class="max-w-sm rounded-lg">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
                   alt=""
