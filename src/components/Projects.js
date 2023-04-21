@@ -34,66 +34,50 @@ export default function Projects() {
                 setShowCatchModal(true);
               }}
             >
-              <a
-                href="https://catch-nft.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  src={porjectImg3}
-                  alt="..."
-                  className="object-fill opacity-80"
-                />
-                <Modal show={showCatchModal}>
-                  <Modal.Body
-                    onMouseLeave={() => {
-                      setShowCatchModal(false);
-                    }}
+              <img
+                src={porjectImg3}
+                alt="..."
+                className="object-fill opacity-80"
+              />
+              <Modal show={showCatchModal}>
+                <Modal.Body
+                  onMouseLeave={() => {
+                    setShowCatchModal(false);
+                  }}
+                >
+                  <a
+                    href="https://catch-nft.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block h-full"
                   >
-                    <a
-                      href="https://catch-nft.herokuapp.com/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="block h-full"
-                    >
-                      <img src={catchGif} alt="" className="" />
-                    </a>
-                  </Modal.Body>
-                </Modal>
-              </a>
+                    <img src={catchGif} alt="" className="" />
+                  </a>
+                </Modal.Body>
+              </Modal>
             </div>
             <div
               onMouseEnter={() => {
                 setShowAirbnbModal(true);
               }}
             >
-              <a
-                href="https://github.com/wenghaishi/1160-airbnb-clone"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  src={airbnb}
-                  alt="..."
-                  className="object-fill opacity-80"
-                />
-                <Modal show={showAirbnbModal}>
-                  <Modal.Body
-                    onMouseLeave={() => {
-                      setShowAirbnbModal(false);
-                    }}
+              <img src={airbnb} alt="..." className="object-fill opacity-80" />
+              <Modal show={showAirbnbModal}>
+                <Modal.Body
+                  onMouseLeave={() => {
+                    setShowAirbnbModal(false);
+                  }}
+                >
+                  <a
+                    href="https://github.com/wenghaishi/1160-airbnb-clone"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block h-full"
                   >
-                    <a
-                      href="https://github.com/wenghaishi/1160-airbnb-clone"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="block h-full"
-                    >
-                      <img src={airbnbGif} alt="" className="" />
-                    </a>
-                  </Modal.Body>
-                </Modal>
-              </a>
+                    <img src={airbnbGif} alt="" className="" />
+                  </a>
+                </Modal.Body>
+              </Modal>
             </div>
           </Carousel>
         </div>
