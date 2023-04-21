@@ -42,7 +42,7 @@ export default function Banner() {
                     fontWeight: "bold",
                     lineHeight: "1em",
                   }}
-                  repeat={3}
+                  repeat={1}
                 />
               </div>
               <p className="mt-4 text-xl text-grey">
