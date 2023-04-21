@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import spaceBg from "../assets/banner-bg.png";
 import spaceman2 from "../assets/spaceman2.png";
 
 export default function Contact() {
@@ -53,7 +54,8 @@ export default function Contact() {
     <React.Fragment>
       <div
         id="contact"
-        className="grid grid-cols-1 md:grid-cols-2 py-20 px-10 bg-gradient-to-r from-gray-900 via-purple-900 to bg-gray-900"
+        className="bg-cover bg-center grid grid-cols-1 md:grid-cols-2 py-20 px-10 bg-gradient-to-r from-black via-[#540770] to bg-black"
+        style={{ backgroundImage: `url(${spaceBg})` }}
       >
         <div>
           <h1 className="text-white text-4xl font-bold text-center mb-4">
